@@ -1,0 +1,194 @@
+/* General Mobile Styles */
+body, html {
+    font-size: 20px;
+    line-height: 2;
+  }
+  
+  .container-fluid, .container {
+    padding: 10 10px;
+  }
+  
+  /* Header Mobile Styles */
+  header {
+    padding: 1rem 0;
+  }
+  
+  .navbar {
+    padding: 0.5rem 0;
+  }
+  
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  
+  .navbar-nav {
+    text-align: right;
+  }
+  
+  .navbar-nav .nav-item {
+    margin: 0.5rem 0;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  
+  .dropdown-content {
+    position: static;
+    min-width: 100%;
+  }
+  
+  .dropdown-content a {
+    padding: 10px;
+  }
+  
+  /* Main Content Mobile Styles */
+  main {
+    padding: 1rem 0;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  .section-1 img, .section-3 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Footer Mobile Styles */
+  footer.footer {
+    padding: 1rem 0;
+  }
+  
+  footer h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
+  
+  footer .form-inline {
+    flex-direction: column;
+  }
+  
+  footer .input-group {
+    width: 100%;
+  }
+  
+  footer .input-group .form-control {
+    border-radius: 0;
+  }
+  
+  footer .input-group-prepend {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer .input-group-text {
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  footer .social-icons i {
+    margin: 0 0.5rem;
+  }
+  
+  .footer .form-inline {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer .form-inline .form-control {
+    border-radius: 0;
+  }
+  
+  .footer .input-group {
+    width: 100%;
+  }
+  
+  .footer .input-group-text {
+    cursor: pointer;
+  }
+  
+  .footer .social-icons i {
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer .social-icons i:hover {
+    color: #ccc;
+  }
+  
+  /* Mobile Specific Styles for Sections */
+  .section-1, .section-2, .section-3, .section-4 {
+    padding: 1rem 0;
+  }
+  
+  .section-1 .row, .section-3 .row, .section-4 .row {
+    margin: 0;
+  }
+  
+  .section-1 .col-md-7, .section-1 .col-md-5, .section-3 .col-md-6, .section-4 .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .section-2 .cover {
+    height: auto;
+    padding: 2rem 0;
+  }
+  
+  .section-2 .content {
+    padding: 1rem;
+  }
+  
+  .section-2 .numbers .rect {
+    margin: 1rem 0;
+    width: 100%;
+  }
+  
+  .section-2 .purchase .cards .card {
+    margin: 1rem 0;
+    width: 100%;
+  }
+  
+  .section-3 .platform .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .section-3 .platform .desktop {
+    width: 100%;
+  }
+  
+  .section-4 .team .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 1rem 0;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
